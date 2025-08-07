@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
-import Job from "./Job";
+import Job from "./job";
 
 const MainSearch = () => {
   const [query, setQuery] = useState("");
